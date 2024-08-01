@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Code Pro Black LC';
+    src: url('../fonts/Code Pro Black LC.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Black';
+    src: url('../fonts/Code Pro Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Bold LC';
+    src: url('../fonts/Code Pro Bold LC.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Bold';
+    src: url('../fonts/Code Pro Bold.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Code Pro Demo';
+    src: url('../fonts/Code Pro Demo.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro LC';
+    src: url('../fonts/Code Pro LC.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Light Demo';
+    src: url('../fonts/Code Pro Light Demo.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Light LC';
+    src: url('../fonts/Code Pro Light LC.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Code Pro Light';
+    src: url('../fonts/Code Pro Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Code Pro';
+    src: url('../fonts/Code Pro.otf') format('opentype');
+    font-weight: 400;
+}

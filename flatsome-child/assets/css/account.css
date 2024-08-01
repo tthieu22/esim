@@ -1,0 +1,611 @@
+.my-account-banner {
+    height: 300px;
+}
+
+.my-account-banner .page-title-bg.fill.bg-fill {
+    min-height: 300px;
+    height: 300px;
+}
+
+.my-account-banner .flex-col.flex-grow.medium-text-center {
+    display: none;
+}
+
+.page-wrapper.my-account.mb {
+    padding-top: 0px;
+}
+
+.my-account-user-image img {
+    min-width: 149px;
+    min-height: 149px;
+    object-fit: cover;
+    border-radius: 999px !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.my-account .account-user {
+    position: relative;
+    min-height: 129px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 60px;
+}
+
+.my-account span.user-name.inline-block {
+
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+
+.my-account span.image.mr-half.inline-block.my-account-user-image {
+    position: absolute;
+    top: -80px;
+}
+
+.custom-button-logout {
+    display: inline-flex;
+    padding: 14px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--primary-primary-color, #7F3DFF);
+    color: #FFF;
+    /* Website/small text/small text bold */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 18px */
+    text-transform: capitalize;
+}
+
+.edit-account label {
+    color: var(--3333, #333);
+
+    /* Website/Normal text/normal text bold */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+}
+
+.edit-account input {
+    border: 1px solid #ddd;
+    border-radius: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
+    /* padding-left: 0px !important; */
+    box-shadow: none !important;
+}
+
+button.woocommerce-Button.button-save-edit-account.button {
+    display: flex;
+    /* width: 295px; */
+    padding: 14px 56px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    color: var(--primary-primary-color, #7F3DFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid var(--primary-primary-color, #7F3DFF);
+    text-transform: capitalize;
+    margin-bottom: 0px !important;
+    margin-top: 25px;
+}
+
+.page-id-39 #wrapper {
+    position: relative;
+}
+
+.page-id-39 #wrapper ul.woocommerce-error {
+    position: absolute;
+    left: 31%;
+    bottom: 39%;
+    z-index: 999;
+}
+
+.my-account-custom #my-account-nav li.is-active a {
+    color: #232323 ;
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+    text-decoration-line: underline;
+    text-transform: capitalize !important;
+}
+
+.my-account-custom #my-account-nav li a {
+    color: #666;
+
+    /* Website/medium text/medium text regular */
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    text-transform: capitalize;
+}
+
+.my-account-custom #my-account-nav li {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.my-account-custom .col-1 {
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+
+@media (max-width: 767px) {
+    .my-account span.user-name.inline-block {
+        position: absolute;
+        left: 0%;
+        top: 52%;
+    }
+}
+
+.my-account-custom .nav-vertical.nav-line>li>a:before {
+    content: unset !important;
+}
+
+html body .button-main {
+    border-radius: 4px;
+    border: 1px solid var(--primary-primary-color, #7F3DFF);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), #7F3DFF;
+    color: var(--fff, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    padding: 14px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+html body .button-main-no-bg {
+    border-radius: 4px;
+    border: 1px solid var(--primary-primary-color, #7F3DFF);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), #fff;
+    color: #7F3DFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    padding: 14px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.my_account_orders-custom tr th {
+    /* border: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: 0.01em solid #CCC; */
+    /* border-width: 1px; */
+    border-color: rgb(247 247 251);
+}
+
+.my_account_orders-custom .order-title {
+    background: #F3EDFF;
+}
+
+.my_account_orders-custom th,
+.my_account_orders-custom td {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.my_account_orders-custom th span {
+    color: var(--000, #000);
+
+    /* Website/medium text/medium text bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+    text-transform: capitalize;
+}
+
+.my_account_orders-custom td>a {
+    color: var(--333, #1A1A1A);
+
+    /* Website/Normal text/normal text regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+.custom-bage {
+    /* display: flex; */
+    /* width: 120px; */
+    padding: 8px 16px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
+    display: inline-block;
+    /* padding: 0.25em 0.4em; */
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    /* color: #FFF; */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 20px;
+}
+
+.custom-pending-status {
+    background-color: #6A7CE9;
+    /* Customize the background color for 'Pending Payment' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-processing-status {
+    background-color: #55BF9C;
+    /* Customize the background color for 'Processing' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-on-hold-status {
+    background-color: #F0905A;
+    /* Customize the background color for 'On Hold' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-completed-status {
+    background-color: #8bc34a;
+    /* Customize the background color for 'Completed' */
+    color: #232323 ;
+    /* Customize the text color */
+}
+
+.custom-cancelled-status {
+    background-color: #E96A6A;
+    /* Customize the background color for 'Cancelled' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-refunded-status {
+    background-color: #9e9e9e;
+    /* Customize the background color for 'Refunded' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-failed-status {
+    background-color: #e91e63;
+    /* Customize the background color for 'Failed' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+.custom-unknown-status {
+    background-color: #607d8b;
+    /* Customize the background color for 'Unknown' */
+    color: #fff;
+    /* Customize the text color */
+}
+
+a.view-detail.view {
+    font-size: 18px;
+    margin-right: 33px;
+    display: block;
+}
+
+
+
+ul.acount-login-tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--ccc, #CCC);
+}
+
+ul.acount-login-tab li {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+    padding: 14px 0px 17px 0px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.acount-login-tab li a {
+    padding: 14px 0px 17px 0px;
+    display: block;
+}
+
+ul.acount-login-tab li.active::after {
+    position: absolute;
+    width: 100%;
+    content: "";
+    background-color: #7F3DFF;
+    height: 2px;
+    bottom: -2px;
+}
+
+ul.acount-login-tab li span {
+    color: var(--999, #999);
+
+    text-align: center;
+
+    /* Website/medium text/medium text bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+    text-transform: uppercase;
+}
+
+ul.acount-login-tab li.active span {
+    color: var(--primary-primary-color, #7F3DFF) !important;
+}
+
+.login-title-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.login-title-wrap .login-title {
+    color: var(--3333, #333);
+    text-align: center;
+
+    /* Website/heading 4 */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+    text-transform: uppercase;
+}
+
+.form-login-custom>p>label {
+    color: var(--3333, #333);
+
+    /* Website/Normal text/normal text bold */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+}
+
+.form-login-custom>p>input {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    outline: none !important;
+    background: transparent !important;
+    border-bottom: 1px solid #999 !important;
+    box-shadow: none !important;
+}
+
+.footer-login-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+label.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce-form-login__rememberme {
+    color: var(--Color---Grey-2, #4F4F4F);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.woocommerce-form-login__rememberme input {
+    accent-color: #7F3DFF;
+}
+
+p.woocommerce-LostPassword.lost_password.lc-text {
+    color: var(--333, #1A1A1A);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.button.woocommerce-form-login__submit {
+    border-radius: 4px;
+    background: var(--primary-primary-color, #7F3DFF);
+    box-shadow: -12px -12px 25px 0px #FAFBFF;
+    width: 100%;
+    text-transform: inherit;
+    padding: 14px 56px;
+    color: var(--fff, #FFF);
+    text-align: center;
+
+    /* Website/Normal text/normal text bold */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+    margin-top: 20px;
+    margin-bottom: 24px !important;
+}
+
+.button.woocommerce-form-login__submit.disabled {
+    background: rgb(114 114 221);
+    color: #FFF;
+}
+
+.dont-have-acc.text-center {
+    margin-bottom: 32px;
+}
+
+.dont-have-acc span {
+    color: var(--primary-primary-color, #7F3DFF);
+    text-align: center;
+
+    /* Website/Normal text/normal text bold */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+}
+
+.dont-have-acc span a {
+    color: var(--primary-primary-color, #7F3DFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.flex.flex-row.items-center.others-login-line>p {
+    color: var(--000, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    max-width: max-content;
+    padding: 0 15px;
+}
+
+.bg-neutral-400 {
+    --tw-bg-opacity: 1;
+    background-color: #CCC;
+}
+
+.border-3 {
+    border: 1px solid #7F3DFF;
+}
+
+.page-id-281 ul.woocommerce-error {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.register-esim {
+    background: transparent;
+}
+
+.pop-up-register-info {
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+}
+
+.cookie-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #232323 ;
+    text-align: center;
+    background: #fff;
+    display: none;
+}
+
+.cookie-banner .cookie-text {
+    color: var(--000, #000);
+
+    /* Website/Normal text/normal text regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+.cookie-banner .cookie-text a {
+    color: var(--000, #000);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+.login-header {
+    order: 3;
+    margin: 0 10px;
+}
+.mobile-sidebar input#search-coutry-header {
+    border-radius: 10px;
+    border: 1px solid var(--primary-primary-color, #7F3DFF);
+    background: var(--fff, #FFF);
+    box-shadow: 2px 2px 6px 0px rgba(22, 27, 29, 0.12);
+}
+.mobile-sidebar .search-icon-top {
+    right: 34px !important;
+    left: unset !important;
+    position: absolute;
+    top: 15px !important;
+}
+.off-canvas .mobile-sidebar-slide {
+    background: #fff;
+}
